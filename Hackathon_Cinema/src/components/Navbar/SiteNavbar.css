@@ -1,0 +1,16 @@
+.navbar {
+  background-color: var(--secondary-color);
+  
+  @media (min-width: 992px) {
+    height: 80px;
+  }
+
+}
+
+a.nav-link {
+  @media (min-width: 992px) {
+    margin-left: 20px;
+    font-weight: 500;
+  }
+
+}
