@@ -8,7 +8,7 @@ export default function ImageAndText({imageLeft = false}){
         <div className="container">
             <div className="row d-flex justify-content-around p-3 m-3 shadow bg-dark bg-gradient">
                 <div className="col-md-5 d-flex align-items-center">
-                    <img src={duckduck} alt="" style={{ width: '350px' }} />
+                    <img src={"https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkwNTc2MDMyMjM5NTI3MDM3/red2.webp"} alt="Jimanji photo" style={{ width: '350px' }} />
                 </div>
                 <div className="col-md-5 d-flex align-items-center">
                     <p className="text-light">

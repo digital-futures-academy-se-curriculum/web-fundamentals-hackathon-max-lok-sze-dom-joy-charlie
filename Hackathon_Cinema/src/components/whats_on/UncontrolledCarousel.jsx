@@ -8,7 +8,7 @@ function UncontrolledCarousel({moviesData}) {
   return (
       <>
 
-      <img src={duckduck} alt="" style={{ width: '350px' }} />
+      <img src={"https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkwNTgxMzg4ODYzODc0MTcz/dune.webp"} alt="Dune photo" style={{ width: '350px' }} />
       {/* {moviesData.map(movie => {
                         return(
                             <div key={movie.id}>
