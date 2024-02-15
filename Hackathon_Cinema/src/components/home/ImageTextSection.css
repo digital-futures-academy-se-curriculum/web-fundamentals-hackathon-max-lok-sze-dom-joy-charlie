@@ -1,0 +1,43 @@
+.image-text-container{
+  margin: 50px 0;
+  height: 300px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* padding: 20px; */
+}
+
+.image-text-container.text-right{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(54, 54, 54));
+}
+
+.image-text-container.text-left{
+  background-image: linear-gradient(to right, rgb(54, 54, 54), rgba(255,0,0,0));
+}
+
+.home-image{
+  /* border: 1px solid blue; */
+  width: 70%;
+  overflow: hidden;
+  display: flex;
+  align-items: center; 
+  margin: 20px 0;
+}
+
+.home-img{
+  width: 100%; 
+  height: auto; 
+  display: block;
+}
+
+.home-text{
+  margin: 20px 0;
+  font-size: 17px;
+  /* border: 1px solid blue; */
+  width: 25%;
+  white-space: normal;
+  overflow: hidden; 
+  /* text-overflow: ellipsis; */
+  /* text-align: justify; */
+}
