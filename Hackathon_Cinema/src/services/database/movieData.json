@@ -1,7 +1,7 @@
 {"data": [
     {
         "id": 1,
-        "title": "ShawShankRedemption",
+        "title": "ShawShank Redemption",
         "description": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
         "showings": {
             "standard": ["10:00", "13:00", "16:00", "19:00", "22:00"],
@@ -9,7 +9,7 @@
             "4DX": ["12:00", "15:00", "18:00", "21:00"],
             "IMAX": ["10:30", "13:30", "16:30", "19:30", "22:30"]
         },
-        "image_url": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+        "image_url": "/src/assets/movie_images/shawshank_redemption.jpg"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
             "4DX": ["11:00", "14:00", "17:00", "20:00", "23:00"],
             "IMAX": ["09:30", "12:30", "15:30", "18:30", "21:30"]
         },
-        "image_url": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_FMjpg_UX1000_.jpg"
+        "image_url": "/src/assets/movie_images/starwars.jpg"
 
     },
     {
@@ -34,7 +34,7 @@
             "4DX": ["12:00", "15:00", "18:00", "21:00"],
             "IMAX": ["10:30", "13:30", "16:30", "19:30", "22:30"]
         },
-        "image_url": "https://m.media-amazon.com/images/M/MV5BZjMwNDQ4NzMtOThmZi00NmMyLThkMWItMTA3MTg2YjdiZDRmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+        "image_url": "/src/assets/movie_images/to_all_the_boys.jpg"
    
     }
 

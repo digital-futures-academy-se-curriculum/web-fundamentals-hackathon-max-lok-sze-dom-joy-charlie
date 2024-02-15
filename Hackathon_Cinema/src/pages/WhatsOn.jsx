@@ -16,7 +16,7 @@ export default function WhatsOn(){
             <section>
                 <CarouselAndText moviesData={moviesData}/>
                 <ImageAndText imageLeft={true}/>
-                <ImageThreeText />
+                <ImageThreeText moviesData={moviesData} />
             </section>
             
     

@@ -6,9 +6,9 @@ export default function CarouselAndText({moviesData =[]}){
 
     return (
         <div className="container">
-            <div className="row d-flex justify-content-around p-3 m-3 shadow bg-dark">
+            <div className="row d-flex justify-content-around p-3 m-3 shadow bg-dark bg-gradient">
                 <div className="col-md-5 d-flex align-items-center">
-                    <p className="text-light"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ut doloremque veritatis error minima distinctio quod corrupti deserunt, inventore asperiores nisi? Libero dolor sequi ipsam illo incidunt.  ?
+                    <p className="text-light"> Get ready for an adrenaline-pumping adventure and heartwarming tales – Df Cinema. is thrilled to present our blockbuster lineup of the season! 🍿✨
 
                     </p>
                     
