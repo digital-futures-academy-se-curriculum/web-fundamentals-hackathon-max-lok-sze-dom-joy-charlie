@@ -1,0 +1,42 @@
+{"data": [
+    {
+        "id": 1,
+        "title": "ShawShank Redemption",
+        "description": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+        "showings": {
+            "standard": ["10:00", "13:00", "16:00", "19:00", "22:00"],
+            "3d": ["11:00", "14:00", "17:00", "20:00", "23:00"],
+            "4DX": ["12:00", "15:00", "18:00", "21:00"],
+            "IMAX": ["10:30", "13:30", "16:30", "19:30", "22:30"]
+        },
+        "image_url": "/src/assets/movie_images/shawshank_redemption.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Star Wars: Episode III - Revenge of the Sith",
+        "description": "Three years into the Clone Wars, Obi-Wan pursues a new threat, while Anakin is lured by Chancellor Palpatine into a sinister plot to rule the galaxy.",
+        "showings": {
+            "standard": ["09:00", "12:00", "15:00", "18:00", "21:00"],
+            "3d": ["10:00", "13:00", "16:00", "19:00", "22:00"],
+            "4DX": ["11:00", "14:00", "17:00", "20:00", "23:00"],
+            "IMAX": ["09:30", "12:30", "15:30", "18:30", "21:30"]
+        },
+        "image_url": "/src/assets/movie_images/starwars.jpg"
+
+    },
+    {
+        "id": 3,
+        "title": "To All the Boys: P.S. I Still Love You",
+        "description": "A story of Lok Sze's love life",
+        "showings": {
+            "standard": ["10:00", "13:00", "16:00", "19:00", "22:00"],
+            "3d": ["11:00", "14:00", "17:00", "20:00", "23:00"],
+            "4DX": ["12:00", "15:00", "18:00", "21:00"],
+            "IMAX": ["10:30", "13:30", "16:30", "19:30", "22:30"]
+        },
+        "image_url": "/src/assets/movie_images/to_all_the_boys.jpg"
+   
+    }
+
+    
+]}

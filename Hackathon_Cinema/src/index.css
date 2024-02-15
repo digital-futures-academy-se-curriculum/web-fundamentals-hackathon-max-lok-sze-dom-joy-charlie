@@ -1,0 +1,15 @@
+:root{
+    --primary-color: #191919;
+    --secondary-color: #750E21;
+    --tertiary-color: #E3651D;
+    --button-color: #00008b; 
+    
+}
+
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--primary-color) 
+}
