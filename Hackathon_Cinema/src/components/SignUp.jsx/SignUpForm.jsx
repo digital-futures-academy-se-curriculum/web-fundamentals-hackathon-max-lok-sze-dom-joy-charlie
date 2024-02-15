@@ -2,7 +2,7 @@ const SignUpForm = () => {
   return (
     <form className="m-2 col-sm-6 pe-sm-3 pe-md-5 pt-sm-5">
       <div className="form-group mb-3 mb-sm-4">
-        <label htmlFor="inputTitle">Title</label>
+        <label htmlFor="inputTitle" className="text-light">Title</label>
         <select id="inputTitle" className="form-control" required>
           <option selected disabled value="">
             Choose...
@@ -14,7 +14,7 @@ const SignUpForm = () => {
         </select>
       </div>
       <div className="form-group mb-3 mb-sm-4">
-        <label htmlFor="inputFirstName">First Name*</label>
+        <label htmlFor="inputFirstName" className="text-light">First Name*</label>
         <input
           type="text"
           className="form-control"
@@ -24,7 +24,7 @@ const SignUpForm = () => {
         />
       </div>
       <div className="form-group mb-3 mb-sm-4">
-        <label htmlFor="inputLastName">Last Name*</label>
+        <label htmlFor="inputLastName" className="text-light">Last Name*</label>
         <input
           type="text"
           className="form-control"
@@ -34,7 +34,7 @@ const SignUpForm = () => {
         />
       </div>
       <div className="form-group mb-3 mb-sm-4">
-        <label htmlFor="inputEmail">Email*</label>
+        <label htmlFor="inputEmail" className="text-light">Email*</label>
         <input
           type="email"
           className="form-control"
@@ -44,7 +44,7 @@ const SignUpForm = () => {
         />
       </div>
       <div className="form-group mb-3 mb-sm-4">
-        <label htmlFor="inputDOB">Date Of Birth</label>
+        <label htmlFor="inputDOB" className="text-light">Date Of Birth</label>
         <input
           type="date"
           className="form-control"
@@ -54,7 +54,7 @@ const SignUpForm = () => {
         />
       </div>
       <div className="form-group mb-3 mb-sm-4">
-        <label htmlFor="inputPhoneNumber">Phone*</label>
+        <label htmlFor="inputPhoneNumber" className="text-light">Phone*</label>
         <input
           type="tel"
           className="form-control"
