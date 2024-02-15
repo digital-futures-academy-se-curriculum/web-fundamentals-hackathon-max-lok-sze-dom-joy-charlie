@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
-import logo from "../../../public/df-header.svg"
+import logo from "/df-header.svg"
 
 import "./SiteNavbar.css"
 
