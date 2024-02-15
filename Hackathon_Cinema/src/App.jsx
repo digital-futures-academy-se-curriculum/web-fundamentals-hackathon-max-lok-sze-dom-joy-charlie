@@ -1,5 +1,8 @@
 import { Routes, Route, } from "react-router-dom";
 import './App.css'
+// import Home from "../src/pages/Home.jsx";
+// import WhatsOn from "./pages/WhatsOn.jsx";
+import SignUp from "./pages/SignUp.jsx";
 import Home from "../src/pages/Home";
 import WhatsOn from "./pages/WhatsOn";
 import SignUp from "./pages/SignUp";
@@ -12,8 +15,8 @@ function App() {
     <>
       <SiteNavbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/whats-on" element={<WhatsOn />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        {/* <Route path="/whats-on" element={<WhatsOn />} /> */}
         <Route path="/sign-up" element={<SignUp />} />
       </Routes>
     </>
