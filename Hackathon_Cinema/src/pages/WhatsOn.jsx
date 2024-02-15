@@ -1,6 +1,3 @@
-
-import { useState } from "react";
-import Footer from "../components/Footer.jsx"
 import CarouselAndText from "../components/whats_on/CarouselAndText.jsx"
 import movieData from "../services/database/movieData.json";
 import ImageAndText from "../components/whats_on/ImageAndText.jsx";
@@ -18,10 +15,7 @@ export default function WhatsOn(){
                 <ImageAndText imageLeft={true}/>
                 <ImageThreeText moviesData={moviesData} />
             </section>
-            
-    
-            
-            <Footer />
+        
         </>
     )
 
