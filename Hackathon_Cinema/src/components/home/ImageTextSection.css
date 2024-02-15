@@ -1,11 +1,9 @@
 .image-text-container{
   margin: 50px 0;
   height: 300px;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* padding: 20px; */
 }
 
 .image-text-container.text-right{
@@ -17,7 +15,6 @@
 }
 
 .home-image{
-  /* border: 1px solid blue; */
   width: 70%;
   overflow: hidden;
   display: flex;
@@ -34,10 +31,26 @@
 .home-text{
   margin: 20px 0;
   font-size: 17px;
-  /* border: 1px solid blue; */
   width: 25%;
   white-space: normal;
   overflow: hidden; 
-  /* text-overflow: ellipsis; */
-  /* text-align: justify; */
+}
+
+@media (max-width: 992px) {
+  .image-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 500px;
+  }
+
+  .home-image{
+    width: 100%;
+    order: -1;
+  }
+
+  .home-text {
+    width: 100%;
+  }
+  
 }
