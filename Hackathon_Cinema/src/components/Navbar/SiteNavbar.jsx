@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
-import logo from "/df-header.svg"
+import logo from "/df-star.png"
 
 import "./SiteNavbar.css"
 
@@ -11,9 +11,9 @@ const SiteNavbar = () => {
   return (
     <>
       <Navbar expand="lg" className="text-light">
-        <Container>
+        <Container className="nav-container">
           <Navbar.Brand as={Link} to="/">
-            <img src={logo}/>
+            <img className="nav-logo" src={logo}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

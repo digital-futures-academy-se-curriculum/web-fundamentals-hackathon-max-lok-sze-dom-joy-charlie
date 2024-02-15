@@ -1,3 +1,10 @@
+.nav-container{
+  display: flex;
+  align-items: flex-end !important;
+  /* justify-content: flex-end; */
+  /* height: 100%; */
+}
+
 .navbar {
   background-color: var(--secondary-color);
   
@@ -8,9 +15,25 @@
 }
 
 a.nav-link {
+
+  display: flex;
+  align-items: flex-end !important;
+  padding-bottom: 0 !important;
+  font-size: 19px;
+
   @media (min-width: 992px) {
     margin-left: 20px;
     font-weight: 500;
   }
 
+}
+
+
+.navbar-brand{
+  width: 230px;
+}
+
+.nav-logo{
+  width: 100%;
+  height: auto;
 }
